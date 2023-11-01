@@ -1,6 +1,23 @@
-# nodejs
-A minimal Node.js web application.
+# OCC-SSE
+Server-Side Extension for Oracle Commerce Cloud.
 
-For a step-by-step guide to deploying on [Railway](https://railway.app/?referralCode=alphasec), see [this](https://alphasec.io/how-to-deploy-a-nodejs-app-on-railway/) post, or click the button below.
+## Scripts
 
-[![Deploy on Railway](https://railway.app/button.svg)](https://railway.app/new/template/Abo1zu?referralCode=alphasec)
+```bash
+# install project dependencies
+yarn
+
+# start development server at localhost:4000
+yarn dev
+
+# build for production
+yarn build
+
+# deploy to remote server
+yarn deploy
+
+# analyze code
+yarn lint
+
+# run tests
+yarn test

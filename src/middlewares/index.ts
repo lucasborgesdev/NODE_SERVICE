@@ -1,0 +1,1 @@
+export { basicAuth } from './auth';
