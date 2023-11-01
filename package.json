@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "prebuild": "rimraf dist && copyfiles package.json dist",
-    "build": "babel src --extensions .ts --out-dir dist --copy-files --no-copy-ignored",
+    
     "postbuild": "cd dist && yarn --production && bestzip bundle.zip *",
     "predeploy": "yarn build",
     "deploy": "ts-node src/core/deployment",
