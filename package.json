@@ -9,7 +9,7 @@
     "postbuild": "cd dist && yarn --production && bestzip bundle.zip *",
     "predeploy": "yarn build",
     "deploy": "ts-node src/core/deployment",
-    "dev": "nodemon -e ts -w src -x ts-node src/server.ts",
+    "dev": "nodemon -e ts -w src -x ts-node server.ts",
     "lint": "eslint src/**/*.ts",
     "test": "jest",
     "start": "node server.ts"
